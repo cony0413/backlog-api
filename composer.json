@@ -1,0 +1,23 @@
+{
+    "name": "cony0413/backlog-api",
+    "description": "PHP library for Backlog API version 2",
+    "authors": [
+        {
+            "name": "cony0413",
+            "email": "38412333+cony0413@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cony0413\\BacklogApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cony0413\\Tests\\": "tests/"
+        }
+    }
+}
